@@ -1,0 +1,12 @@
+{application, tmk_wallet,
+ [
+  {description, "Wallet Application"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { tmk_wallet_app, []}},
+  {env, []}
+ ]}.
